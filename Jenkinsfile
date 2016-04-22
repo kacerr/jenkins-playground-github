@@ -14,9 +14,18 @@ node() {
   sh 'git rev-parse HEAD > GIT_COMMIT'
   git_commit=readFile('GIT_COMMIT').toString().replace("\n","")
 
+  sh 'git status > _GIT_STATUS'
+  echo readFile('_GIT_STATUS')
+
   echo "branch: ${branch}, git commit: ${git_commit}"
   
   echo "Any changes ?"
   echo "another change"
-  echo "Yet another change"
+  
+  echo "Hohooooo"
+  
+  echo "branch: ${env.BRANCH}"
+  echo "branch_name: ${env.BRANCH_NAME}"
+  
+  
 }
