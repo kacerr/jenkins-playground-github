@@ -17,4 +17,5 @@ node() {
   echo "branch: ${branch}, git commit: ${git_commit}"
   
   echo "Any changes ?"
+  echo "another change"
 }
