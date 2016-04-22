@@ -18,4 +18,6 @@ node() {
   
   echo "Any changes ?"
   echo "another change"
+  
+  echo "Hohooooo"
 }
