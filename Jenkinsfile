@@ -4,6 +4,8 @@ stage 'checkout & build'
 
 node() {
 
+  scm checkout 
+
   workDir = pwd()
   
 
