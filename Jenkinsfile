@@ -15,4 +15,6 @@ node() {
   git_commit=readFile('GIT_COMMIT').toString().replace("\n","")
 
   echo "branch: ${branch}, git commit: ${git_commit}"
+  
+  echo "Any changes ?"
 }
