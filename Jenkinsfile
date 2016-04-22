@@ -32,7 +32,7 @@ node() {
   echo "still on it ..."
 
   echo "This is here to see how it looks on github when jenkins has been called"
-  sh 'for i in `seq 60`; do sleep 1; echo $i; done > _OUTPUT'
+  sh 'for i in `seq 10`; do sleep 1; echo $i; done > _OUTPUT'
   echo readFile('_OUTPUT')
 
   
