@@ -29,6 +29,7 @@ node() {
   
   echo "still on it"
   echo "still on it ..."
+  echo "still on it ..."
 
   
 }
