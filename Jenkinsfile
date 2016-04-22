@@ -27,5 +27,6 @@ node() {
   echo "branch: ${env.BRANCH}"
   echo "branch_name: ${env.BRANCH_NAME}"
   
+  echo "still on it"
   
 }
